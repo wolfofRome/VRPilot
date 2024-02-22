@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.4",
+	"FriendlyName": "EOSCoreVoice",
+	"Description": "EOS Voice Chat",
+	"Category": "eelDev plugins",
+	"CreatedBy": "eelDev",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f501fcff7724340b4bba75933974e32",
+	"SupportURL": "https://eeldev.com",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EOSCoreVoice",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Android",
+				"Mac",
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EOSVoiceChat",
+			"Enabled": true
+		}
+	]
+}

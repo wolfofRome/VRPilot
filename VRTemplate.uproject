@@ -1,0 +1,107 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8948038C-4839-17F1-1427-BC98D471CEBD}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "VRTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ResonanceAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GameLiftServerSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintJson",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f837e4835fbc434a853fe1ead2410b84"
+		},
+		{
+			"Name": "awsSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/eee4bef24c9d429887ddcc107a5a9b4d"
+		},
+		{
+			"Name": "AvidDNxMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSVoiceChat",
+			"Enabled": true
+		},
+		{
+			"Name": "HardwareEncoders",
+			"Enabled": true
+		},
+		{
+			"Name": "WindowsVideoRecorder",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7df4efe2a0d04ccaa74617e417d60f8e"
+		},
+		{
+			"Name": "EOSCoreVoice",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f501fcff7724340b4bba75933974e32"
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		},
+		{
+			"Name": "HttpBlueprint",
+			"Enabled": true
+		},
+		{
+			"Name": "VaRest",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
+		},
+		{
+			"Name": "Restful",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8f2856c9c2844561a2ff1f81c4772ba7"
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"IOS",
+		"Linux",
+		"Mac",
+		"PS4",
+		"PS5",
+		"Windows",
+		"WindowsNoEditor",
+		"Switch",
+		"XboxOne",
+		"XSX",
+		"HoloLens"
+	]
+}

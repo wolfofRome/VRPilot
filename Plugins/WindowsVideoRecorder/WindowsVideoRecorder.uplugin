@@ -1,0 +1,57 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0",
+	"FriendlyName": "WindowsVideoRecorder",
+	"Description": "Record Video for Windows",
+	"Category": "Recorder",
+	"CreatedBy": "Obitodaitu",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7df4efe2a0d04ccaa74617e417d60f8e",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "WindowsVideoRecorder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "MediaEncoder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "WindowsFeatures",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HardwareEncoders",
+			"Enabled": true
+		}
+	]
+}

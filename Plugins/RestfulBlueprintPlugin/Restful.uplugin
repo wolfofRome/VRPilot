@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1.0",
+	"FriendlyName": "Restful",
+	"Description": "Restful plugin",
+	"Category": "Other",
+	"CreatedBy": "Siqi.Wu",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8f2856c9c2844561a2ff1f81c4772ba7",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Restful",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"LinuxArm64",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		}
+	]
+}

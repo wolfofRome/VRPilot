@@ -1,0 +1,16 @@
+/* Copyright (C) Siqi.Wu - All Rights Reserved
+* Written by Siqi.Wu<lion547016@gmail.com>, September 2020
+*/
+
+#pragma once
+
+#include "CoreMinimal.h"
+
+#include "S3ObjectLockLegalHoldStatus.generated.h"
+
+UENUM(BlueprintType)
+enum class EAWSS3ObjectLockLegalHoldStatus : uint8 {
+    NOT_SET        UMETA(DisplayName = "not set"),
+    OFF        UMETA(DisplayName = "off"),
+    ON        UMETA(DisplayName = "on"),
+};
